@@ -26,14 +26,14 @@ hr{
 img{
     background:  left/15% auto no-repeat;
 	padding-left: 18%;
-    width: 200px;
+    width: 150px;
     height: inherit;
     -webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	rotation: 90deg;
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-    top:20px;
-    left:50px;
+    top:1rem;
+    left:1rem;
     position: fixed;
 }
 #header{
