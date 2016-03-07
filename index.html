@@ -2,49 +2,110 @@
 <html lang="es">    
 <head>
     <meta charset="UTF-8">
-    <title>Título de la página</title>
-    <link href='C:\Users\Manu\Desktop\html5 css javascript\Ejercicio1\index.css' rel='stylesheet' type='text/css'>
+    <title>Curriculum vitae Manuel García Montes</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-<p>Menú:</p>
-<ul>
-    <a>
-        <li>
-            <a> Hablidades y conocimientos</a>
-        <li>
-            <a> Perfiles sociales </a>
-</ul>
-<p><h1>Manuel García Montes</h1></p>
-<br>
-<br>
-<br>
-<p>Pequeño párrafo diciendo qué has estudiado, por qué y cuales son tus aficiones</p>
-<br>
-<br>
-    <img src="C:\Users\Manu\Pictures\Manuel Garcia Montes.bmp" alt="Imagen"><img src="http://www.enbolivia.com/files/imagen_corporativa.jpg" alt="Imagen">
-<br>
-<br>
-<p>---------------------------------------------------------------------------------------------------</p>
-<p>
-    <h2>Habilidades y conocimientos</h2></p>
-<ul>
-<p>
-    <li><strong>Ofimática: </strong></li> Excel, Powerpoint...<br>
-    <li><strong>Grado en Ingenieria Agroambiental: </strong> ArcGIS desktop,ERDAS...</li>
-    <li><strong>etc </strong> </li>
-</p>
-</ul>
-<p>---------------------------------------------------------------------------------------------------</p>
-<p>
-    <h2>Perfiles sociales</h2></p>
-<ul>
-    <li><a href= "" target="_blank"> Linkedin</a></li>
-    <li><a href= "" target="_blank"> Twitter </a></li>
+  <div id="header" class="center">
+    <ul id="menu" class="inline">
+    <li><a href="#habilidades">Hablidades y conocimientos</a></li>
+      <li><a href="#experiencia">Experiencia laboral</a></li>
+      <li><a href="#educacion">Educación</a></li>
+      <li><a href="#perfiles-sociales">Perfiles sociales</a></li>
+      
+    </ul>
+  </div>
+<div id="container">
+    <div id="me">
+      <img src="http://i67.tinypic.com/2qip93l.jpg" alt="Error al cargar imagen."> 
+      <h1>Manuel García Montes</h1>
+  <p>
+  <div id="yo">
+  <h3>Un poquito de mi.</h3>
+  <p> Enamorado del medio ambiente estudie    Ingenieria Agroambiental donde descubri el maravilloso mundo del SIG.
+   Encauce mi tiempo y mi esfuerzo en geomatica hasta descubrir otra fantástica "herramienta", la programación.Podría decirse que fue amor a primera vista, Python no fue una herramienta más con la que trabajar, fue un descubrimiento con el que matar las horas, un medio con el que crear y una forma de optimizar el tiempo.
+    La primera impresión con Javascript no fue tan romantica, los "problemas" no se "solucionaban" tan facilmente, pero con un poco de pasión y esfuerzo fui capaz de entender la belleza de este maravilloso lenguaje.
+     </p>
+  </div>
+  <hr>
+    <h2 id="experiencia">Experiencia profesional</h2>
+      <table id="expertise"><thead><tr>
+        <th>Sector</th>
+        <th>Empresa / Organización</th>
+        <th>Cargo</th>
+        <th>Localización</th>
+        <th>Desde-Hasta</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+      <tr>
+        <th class="exp">GIS</th>
+        <th class="exp">ETS de Arquitectura</th>
+        <th class="exp">Becario</th>
+        <th class="exp">Madrid, ETS Arquitectura UPM</th>
+        <th class="exp">1 Septiembre 2015-31 Octubre 2015</th>
+        </tr>
+        </tbody>
+        
+        </table>
+<ol id="expertise-list"></ol>
+
+  <hr>
+  <h2 id="habilidades">Habilidades y conocimientos</h2>
+  <ul>
+  <ul>
+    <p>
+      <li><strong>Ofimática: </strong>Microsoft Office™  al completo.</li>
+      <li><strong>Experiencia GIS: </strong> ArcGIS desktop(3 años),ERDAS(2 años), IDRISI (1 año), ArcGIS Online, ArcGIS server,Collector, ArcGIS APIs.</li>
+      <li><strong>etc </strong> </li>
+      <li><strong>Lenguajes de programación:</strong>Python, Javascript</li>
+      <li><strong>Otros lenguajes: </strong>html5, css.</li>
+    </p>
+  </ul>
+  
+    <hr>
+    <h2 id="educacion">Educación</h2>
+    <table id="education">
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Entidad</th>
+          <th>Promoción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Master GIS-Esri</td>
+          <td>Esri España</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Grado en Ingeniería Agroambiental. Especialización Agroenergética</td>
+          <td>ETSIA Agrónomos UPM</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Masaje y técnico en spa y relax</td>
+          <td>Escuela Superior de Técnicas Parasanitarias. Convenio Europeo Hispano-Luso</td>
+          <td>2011</td>
+        </tr>
+      </tbody>
+    </table>
+<hr>
+    <h2 id="perfiles-sociales">Perfiles sociales</h2>
+    <p class="inline">Perfiles sociales: </p>
+    <ul class="inline">
+  <ul>
+    <li>
+      <a href= "" target="_blank"> Linkedin</a>
+    </li>
+    <li>
+      <a href= "" target="_blank"> Twitter </a>
+    </li>
     <li>etc  </li>
-</ul>
+  </ul>
 </body>
 </html>
 
-<body>
 
 <!--Comentario-->
